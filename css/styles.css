@@ -1,0 +1,93 @@
+/* Colors */
+:root {
+    --colour-brand-light: #2B7FFF;
+    --colour-brand-dark: #011C44;
+    --primary-colour-light:#FFFFFF;
+    --primary-colour-dark: black;
+    --light-secondary-color: #747272;
+    --dark-secondary-color: #4A4A4A;
+}
+
+/* Base */
+body {
+    color: var(--colour-brand-dark);
+
+}
+ul {
+    list-style-type: none;
+}
+address {
+    font-style: normal;
+}
+/* Button */
+.button {
+    background-color: var(--colour-brand-light);
+    border-radius: 32px;
+    color: var(--primary-colour-light);
+    border: 2px solid var(--colour-brand-light);
+    cursor: pointer;
+}
+.button:hover {
+color: var(--colour-brand-dark);
+background-color: transparent;
+}
+/* Links */
+.link {
+    text-decoration: none;
+    color: var(--colour-brand-dark);
+}
+.link:hover {
+    color: var(--colour-brand-light);
+}
+/* Hero section */
+.hero-title {
+    color: var(--colour-brand-light);
+    text-transform: capitalize;
+}
+.hero-text {
+    color: var(--dark-secondary-color) ;
+}
+
+/* Title */
+.section-title .accent{
+    color: var(--colour-brand-light);
+}
+.section-title .capitalize {
+    text-transform: capitalize;
+}
+
+/* Advantages section */
+.advantages-text {
+    color: var(--primary-colour-dark);
+}
+/* About us section */
+.about-us-text .accent {
+    text-transform: capitalize;
+}
+/* Contact section */ 
+.contact-text {
+    color: var(--primary-colour-light);
+}
+.contact-text .accent{
+color: var(--colour-brand-light);
+}
+.privacy-policy {
+    color: var(--light-secondary-color);
+}
+.privacy-police-link {
+color: var(--light-secondary-color); 
+}
+/* footer */
+footer .link {
+    color: var(--primary-colour-light);
+}
+footer {
+    background-color: #011C44;
+}
+.address-link {
+    color: var(--primary-colour-light);
+    text-decoration: none;
+}
+.address-copyright {
+    color: var(--light-secondary-color);
+}
