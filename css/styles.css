@@ -103,6 +103,13 @@ background-color: transparent;
     text-transform: capitalize;
 }
 
+/* Procedures section */
+.procedure-title {
+color: var(--primary-colour-light);
+font-size: 22px;
+line-height: 1.2;
+font-weight: 400;
+}
 /* Advantages section */
 .advantages-text {
     color: var(--primary-colour-dark);
